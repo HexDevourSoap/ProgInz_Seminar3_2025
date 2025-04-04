@@ -21,7 +21,7 @@ import lombok.ToString;
 @Setter
 @NoArgsConstructor
 @ToString
-@Table(name = "Driver_Table") //MYSQL - professor_table
+@Table(name = "Driver_Table") 
 @Entity
 public class Driver {
 	@Setter(value = AccessLevel.NONE)
